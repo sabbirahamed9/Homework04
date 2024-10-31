@@ -1,0 +1,121 @@
+
+*{
+	margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: poppins;
+}
+
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+background-image: url("img/sky.jpg");
+background-size: cover;
+background-position-x: center;
+
+}
+
+.wrapper{
+	width: 420px;
+background: transparent;
+	border: 2px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(40px);
+	color: white;
+	border-radius: 10px;
+	padding: 30px 40px;
+
+}
+
+
+.wrapper h1 {
+ font-size: 60px;
+ text-align: center;
+ color: white;
+
+}
+.wrapper.input-box{  
+	position: relative;
+	width: 140px;
+	height: 80px;
+	margin: 60px 0;
+
+}
+
+.input-box input{
+	
+	width: 100%;
+	height: 40px;
+	background: transparent;
+	border: none;
+	outline:none;
+	border-radius: 40px;
+	font-size: 20px;
+	color: white;
+	padding: 20px 45px 20px 20pxS;
+
+	
+}
+
+.wrapper .remember-forget{
+	display: flex;
+	color: white;
+	justify-content:space-between;
+	font-size: 14px;
+	
+}
+
+.remember-forget label input{
+	
+	margin:30px;
+
+}
+.wrapper .button{
+	text-align: center;
+	width: 350px;
+	height: 40px;
+	background: white;
+	border-radius: 35px;
+	cursor: crosshair;
+	font-size: 21px;
+	color: black;
+	font-weight: 50;
+}
+ .wrapper .register{
+ 	font-style:normal;
+ 	color: white;
+ 	font-size: 25px;
+ 	text-align: center;
+ 	margin-top: 20px;
+
+ }
+
+  .register p a{
+  	color: white;
+  	font-weight: 35px;
+  }
+
+.text {
+	font-size:30px;
+	text-align: center;
+color: white;
+font-style: italic;
+
+}
+
+
+.tex{
+	text-align: center;
+	color: whitesmoke;
+ font-size:40px;
+ font-style: italic;
+ font-weight: 1000;
+ }
+
+ .text3{
+ 	text-align: center;
+ 	font-style: italic;
+ 	font-weight: 1000px;
+ }
